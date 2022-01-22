@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Pixiv = ({ id }: { id: string }) => {
   return (
     <a

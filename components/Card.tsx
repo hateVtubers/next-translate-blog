@@ -1,8 +1,8 @@
 import type { Data } from "lib/mdx";
 import Image from "next/image";
-import { Pixiv } from "./Pixiv";
-import { Tag } from "./Tag";
-import { Twitter } from "./twitter";
+import { Pixiv } from "components/Pixiv";
+import { Tag } from "components/Tag";
+import { Twitter } from "components/twitter";
 import Link from "next/link";
 
 export const Card = ({ data }: { data: Data }) => {
